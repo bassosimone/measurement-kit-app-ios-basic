@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06014C331B3756F800935312 /* event2_pthreads.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06014C321B3756F800935312 /* event2_pthreads.framework */; };
 		065173801B374276008E730B /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0651737F1B374276008E730B /* main.mm */; };
 		06A205BA1B37498900275432 /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A205B61B37498900275432 /* boost.framework */; };
 		06A205BB1B37498900275432 /* event2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A205B71B37498900275432 /* event2.framework */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06014C321B3756F800935312 /* event2_pthreads.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = event2_pthreads.framework; path = Frameworks/event2_pthreads.framework; sourceTree = "<group>"; };
 		0651737A1B374276008E730B /* measurement-kit-app-ios-basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "measurement-kit-app-ios-basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0651737E1B374276008E730B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0651737F1B374276008E730B /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06014C331B3756F800935312 /* event2_pthreads.framework in Frameworks */,
 				06A205BA1B37498900275432 /* boost.framework in Frameworks */,
 				06A205BB1B37498900275432 /* event2.framework in Frameworks */,
 				06A205BC1B37498900275432 /* ight.framework in Frameworks */,
@@ -79,6 +82,7 @@
 		06A205B41B37488100275432 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				06014C321B3756F800935312 /* event2_pthreads.framework */,
 				06A205B61B37498900275432 /* boost.framework */,
 				06A205B71B37498900275432 /* event2.framework */,
 				06A205B81B37498900275432 /* ight.framework */,
